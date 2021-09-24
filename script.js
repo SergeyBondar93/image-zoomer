@@ -71,6 +71,7 @@ function mouseMove(e) {
 
 function mouseLeave() {
   const popover = document.getElementById("popover");
+  size = 1
   popover.remove();
 }
 function mouseEnter() {
